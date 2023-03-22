@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(18, 184, 184);
+    height: 17vh;
+}
+
+.header h1 {
+    color: rgb(7, 69, 69);
+    /* padding: 4vh 0; */
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+
+}
+
+.names {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(23, 129, 129);
+}
+
+.names li {
+    padding: 0 22px;
+}
+
+.main {
+    /* background-color: rgb(207, 163, 97); */
+    background-color: rgb(46, 144, 144);
+    height: 75vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 8vh;
+}
+
+.main h1 {
+    padding: 20px 0;
+}
+
+#imagesec {
+    height: 50vh;
+    width: 40vw;
+    background-color: teal;
+    margin: auto;
+    border-radius: 10%;
+}
+
+#abc {
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10%;
+}
+
+.footer {
+    border: 2px solid black;
+    background-color: rgb(50, 48, 48);
+    height: 50vh;
+}
+
+.footer h1 {
+    color: white;
+}
+
+#browseFile {
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 3px 5px;
+}
+
+#browseFile:hover {
+    background-color: rgb(204, 230, 232);
+    font-weight: bold;
+}
+
+#dt {
+    color: rgb(7, 69, 69);
+}
+
+.res{
+    margin-top: 5vh;
+}
+.res li{
+    font-size: 20px;
+    padding: 9px 0;
+}
